@@ -1,0 +1,14 @@
+## tanggal pertemuan 1 - 11 
+feb
+16,23
+maret
+1,8,14,18,25
+april
+1,26
+mei
+3 (uts), 17
+
+## kode matkul elmag & metlit
+1513600102 (metlit)
+1513600023 (elmag)
+

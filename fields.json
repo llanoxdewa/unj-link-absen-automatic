@@ -1,0 +1,45 @@
+{
+  "next": "//span[contains(text(),'Berikutnya')]",
+  "kirim": "//span[contains(text(),'Kirim')]",
+  "text": {
+    "nama": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[#NAMA_POS]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "nim": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[#NIM_POS]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "noHP": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[#NOHP_POS]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "nama_dosen_1": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "kode_mata_kuliah": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]",
+    "nama_mata_kuliah": "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]"
+  },
+  "choices": {
+    "jenjang":[
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[@data-value='#JENJANG' and @role='option']"
+    ],
+    "program_studi": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[@data-value='#PROGRAM_STUDI' and @role='option']"
+    ],
+    "huruf_awal_dosen": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[@data-value='#HURUF_AWAL_DOSEN' and @role='option']"
+    ],
+    "nama_dosen": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[@data-value='#NAMA_DOSEN' and @role='option']"
+    ],
+    "jumlah_sks": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[@data-value='#JUMLAH_SKS' and @role='option']"
+    ],
+    "minggu": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[contains(@data-value,'Minggu') and contains(@data-value,'#MINGGU') and @role='option']"
+    ],
+    "pertemuan": [
+      "//body/div[1]/div[2]/form[1]/div[2]/div[1]/div[2]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "//div[contains(@data-value,'Pertemuan') and contains(@data-value,'#PERTEMUAN') and @role='option']"
+    ]
+  },
+  "radio": {
+    "fakultas": "//div[@data-value='#FAKULTAS']"
+  }
+}
